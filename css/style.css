@@ -53,7 +53,6 @@ li {
     border-radius: 20%;
     padding: 10px;
     font-weight: bold  ;
-
     color: black ;
 
 
@@ -121,13 +120,44 @@ text-align:center }
 
 .col-100 {
     width: 80%;
-    background-color: pink;
+    background-color:transparent;
     height: 250px;
-    padding: 5px;
-    border-style: dashed;
+    
+    color: white;
+    text-align: center;
+    font-size: 18px;
 
 }
-
+h1{
+    padding: 25px;
+    font-size: 45px;
+}
+.box-link{
+    padding: 30px;
+    
+   
+}
+.download-mac{
+    color: black;
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;  
+    text-decoration: none;
+    margin: 0 10px;
+      
+    
+}
+.open-browser {
+    color: white;
+        height: auto;
+        width: auto;
+        background-color: black;
+        padding: 10px;
+        border-radius: 25px;
+        text-decoration: none;
+}
 .bg-blue {
     background-color: blue;
     padding: 10px 0px;
