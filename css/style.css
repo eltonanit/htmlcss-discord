@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+
+}
+
+/*Header*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.container-sm {
+    max-width: 990px;
+    margin: 0 auto;
+
+
+}
+
+.login {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.content {
+    background-color: yellow;
+    border-style: dashed;
+    padding: 5px;
+
+
+}
+
+.col-25 {
+    width: calc(100% / 4);
+}
+
+.col-16 {
+    width: calc(100% / 6);
+    background-color: rgb(72, 133, 218);
+    height: 350px;
+    padding: 5px;
+    border-style: dashed;
+    border-color: white;
+
+}
+
+.col-32 {
+    width: calc(100% / 3);
+    background-color: rgb(218, 72, 203);
+    height: 350px;
+    padding: 5px;
+    border-style: dashed;
+
+
+}
+
+.col-35 {
+    width: 35%;
+    background-color: pink;
+    height: 400px;
+    padding: 5px;
+    border-style: dashed;
+
+}
+
+.col-50 {
+    width: calc(100% / 2);
+    text-align: center;
+}
+
+.col-65 {
+    width: 65%;
+    background-color: lightseagreen;
+    height: 400px;
+    padding: 5px;
+    border-style: dashed;
+
+}
+
+.col-100 {
+    width: 80%;
+    background-color: pink;
+    height: 250px;
+    padding: 5px;
+    border-style: dashed;
+
+}
+
+.bg-blue {
+    background-color: blue;
+    padding: 10px 0px;
+}
+
+.bg-white {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.bg-grey {
+    background-color: lightslategray;
+    padding: 10px 0px;
+}
+
+.bg-black {
+    background-color: black;
+    padding: 10px;
+
+}
+
+.col-100-green {
+    width: 100%;
+    background-color: green;
+    height: 550px;
+
+    border-style: dashed;
+
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px 20px 20px;
+
+    justify-content: center;
+
+}
+
+.bg-black-line {
+    margin-top: 1px;
+    border-top: white;
+    background-color: black;
+
+}
+
+.last-div {
+    margin-top: 20px;
+    width: 100%;
+    background-color: lightskyblue;
+    height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+    
+
+
+}
+ 
+.row-last {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+ 
+
+}
+h4 {
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-style: dashed;
+    text-align: center;
+    padding: 6px ;
+    
+     
+}
