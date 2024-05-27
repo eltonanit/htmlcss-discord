@@ -29,37 +29,55 @@ header{
 
 
 }
-.py {padding: 10px 0;}
+
 
 .row {
     display: flex;
     flex-wrap: wrap;
- 
+    align-items: center;
     justify-content: center;
+    padding: 10px;
 
-}
-.login {
-    text-align: right;
 }
 
 li {
     display: inline-block;
     list-style: none;
+    padding: 0px 20px;
 }
 
+.login{
+    background-color:white;
+    height: 20px;
+    width: 60px;
+    border-radius: 20%;
+    padding: 10px;
+    font-weight: bold  ;
 
-
-.content {
-    background-color: yellow;
-    border-style: dashed;
-    padding: 5px;
+    color: black ;
 
 
 }
-
+.text-align {
+     
+     
+text-align:center }
+ 
 .col-25 {
     width: calc(100% / 4);
+    align-items: center;
 }
+.col-50 {
+    width: calc(100% / 2);
+    text-align: center;
+}
+.content {
+    background-color: #255EE9;    
+     
+    color: white;
+   
+}
+
 
 .col-16 {
     width: calc(100% / 6);
@@ -90,10 +108,7 @@ li {
 
 }
 
-.col-50 {
-    width: calc(100% / 2);
-    text-align: center;
-}
+
 
 .col-65 {
     width: 65%;
