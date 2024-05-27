@@ -8,10 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: aquamarine;
 
-}
 
 /*Header*/
 
@@ -28,7 +25,13 @@ header {
 
 
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
 
+}
 .login {
     text-align: right;
 }
@@ -38,13 +41,7 @@ li {
     list-style: none;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    justify-content: center;
 
-}
 
 .content {
     background-color: yellow;
@@ -186,4 +183,14 @@ h4 {
     padding: 6px ;
     
      
+}
+/*PARTE 2 */
+
+.bg-jumbo{ 
+    background-image: url('../img/jumbo.png');
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
